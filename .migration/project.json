@@ -1,12 +1,12 @@
 {
   "type": "xwalk",
   "libraryUrl": "https://main--pearson-aem-ue--bimalpati.aem.page/",
-  "previewOrg": "bimalpati",
-  "previewSite": "pearson-aem-ue",
   "aemSitePath": "/content/pearson",
   "aemAssetsFolderPath": "/content/dam/pearson",
   "aemSiteName": "pearson",
   "aemSiteTitle": "Pearson",
   "contentHostUrl": "author-p9507-e143120.adobeaemcloud.com",
-  "baseUrl": "https://www.pearson.com/en-us.html"
+  "baseUrl": "https://www.pearson.com/en-us.html",
+  "previewOrg": "bimalpati",
+  "previewSite": "pearson-aem-ue"
 }
