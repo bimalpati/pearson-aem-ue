@@ -55,7 +55,7 @@
 }
 
 .cards .cards-card-body a::after {
-  content: " ›";
+  content: "";
 }
 
 .cards .cards-card-image {
