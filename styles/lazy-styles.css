@@ -1,15 +1,21 @@
 /* Pearson section-specific styles loaded after LCP */
 
-/* Enterprise quote section */
+/* Enterprise quote section - large bold text on light background */
+main > .section.highlight {
+  background-color: var(--light-color);
+  padding: 80px 0;
+}
+
 main > .section.highlight h2 {
   font-size: var(--heading-font-size-xl);
-  line-height: 1.2;
+  font-weight: 700;
+  line-height: 1.15;
   max-width: 800px;
   color: var(--purple-dark);
 }
 
 /* Trusted logos section */
-main > .section.highlight p:first-child {
+main > .section.highlight:first-of-type p:first-child {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -22,7 +28,8 @@ main > .section.highlight p:first-child {
 main img[alt*="video"] {
   border-radius: 12px;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
+  display: block;
 }
 
 /* Section spacing refinements */
@@ -34,8 +41,23 @@ main > .section:first-of-type {
   padding-top: 0;
 }
 
+/* Columns rounded images */
+.columns img {
+  border-radius: 12px;
+}
+
+/* Cards in talent section - purple border style from wireframe */
+.cards > ul > li {
+  border: 2px solid var(--purple-accent);
+  border-radius: 12px;
+}
+
 @media (width >= 900px) {
   main > .section {
     padding: 80px 0;
+  }
+
+  main > .section.highlight h2 {
+    font-size: 42px;
   }
 }
