@@ -6,5 +6,6 @@
   "aemSitePath": "/content/pearson",
   "aemAssetsFolderPath": "/content/dam/pearson",
   "aemSiteName": "pearson",
-  "aemSiteTitle": "Pearson"
+  "aemSiteTitle": "Pearson",
+  "contentHostUrl": "author-p9507-e143120.adobeaemcloud.com"
 }
