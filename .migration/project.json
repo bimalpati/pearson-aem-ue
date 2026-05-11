@@ -1,8 +1,6 @@
 {
   "type": "xwalk",
   "libraryUrl": "https://main--pearson-aem-ue--bimalpati.aem.page/",
-  "previewOrg": "bimalpati",
-  "previewSite": "pearson-aem-ue",
   "aemSitePath": "/content/pearson",
   "aemAssetsFolderPath": "/content/dam/pearson",
   "aemSiteName": "pearson",
