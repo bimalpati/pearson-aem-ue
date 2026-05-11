@@ -1,10 +1,14 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+  gap: 32px;
 }
 
 .columns img {
   width: 100%;
+  border-radius: 12px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
 
 .columns > div > div {
@@ -19,11 +23,24 @@
   display: block;
 }
 
+.columns h3 {
+  font-size: var(--heading-font-size-m);
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: var(--gray-900);
+}
+
+.columns p {
+  font-size: var(--body-font-size-s);
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 40px;
   }
 
   .columns > div > div {
