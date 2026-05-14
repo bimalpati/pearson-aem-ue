@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.pearson.com/en-us.html",
+  "path": "en-us",
+  "timestamp": "2026-05-14T12:36:07.066Z",
+  "title": "Create new possibilities with Pearson. Start learning today.",
+  "template": "homepage",
+  "blocks": [
+    "hero-homepage",
+    "cards-promo",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "columns-feature",
+    "hero-banner"
+  ]
+}
