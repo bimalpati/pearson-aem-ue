@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-14T12:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.pearson.com/en-us.html",
+    "originPage": "Pearson US Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "mid-page-hero",
+    "imagePattern": "background-photo"
+  },
+  "contentPattern": {
+    "structure": "heading + subtitle + paragraph + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mid-page hero banners with background photos",
+      "feature highlight sections with dark overlay",
+      "full-width promotional banners with CTA"
+    ],
+    "notSuitableFor": [
+      "top-of-page heroes with video backgrounds",
+      "minimal heroes without CTA buttons",
+      "light-themed hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-14T12:20:00.000Z"
+  }
+}

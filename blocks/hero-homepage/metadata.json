@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-homepage",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-14T12:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.pearson.com/en-us.html",
+    "originPage": "Pearson US Homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "purpose": "homepage-hero",
+    "imagePattern": "video-background"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero sections",
+      "landing pages with video/animated backgrounds",
+      "minimal hero with just heading and subtitle"
+    ],
+    "notSuitableFor": [
+      "hero sections with CTA buttons",
+      "hero sections with background photos of people",
+      "text-heavy hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-14T12:20:00.000Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-promo",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-14T12:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.pearson.com/en-us.html",
+    "originPage": "Pearson US Homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "promo-cards",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "eyebrow + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional card grids without images",
+      "category navigation cards",
+      "feature highlight cards with CTA links"
+    ],
+    "notSuitableFor": [
+      "cards with large images",
+      "product cards with pricing",
+      "team member or testimonial cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-14T12:20:00.000Z"
+  }
+}
