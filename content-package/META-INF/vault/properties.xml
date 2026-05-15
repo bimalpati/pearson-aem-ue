@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment>FileVault Package Properties</comment>
+  <entry key="name">pearson-content</entry>
+  <entry key="group">pearson</entry>
+  <entry key="version">1.0.0</entry>
+  <entry key="description">Pearson AEM Edge Delivery Services content package - Homepage and K-12 Support page</entry>
+  <entry key="createdBy">excat-migration</entry>
+  <entry key="packageType">content</entry>
+  <entry key="acHandling">merge</entry>
+  <entry key="requiresRoot">false</entry>
+</properties>

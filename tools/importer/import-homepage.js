@@ -186,9 +186,9 @@ export default {
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
 
-    const path = WebImporter.FileUtils.sanitizePath(
-      new URL(params.originalURL).pathname.replace(/\/$/, '').replace(/\.html$/, ''),
-    );
+    let rawPath = new URL(params.originalURL).pathname.replace(/\/$/, '').replace(/\.html$/, '');
+    if (rawPath === '/en-us') rawPath = '/index';
+    const path = WebImporter.FileUtils.sanitizePath(rawPath);
 
     return [{
       element: main,

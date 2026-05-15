@@ -228,6 +228,19 @@ button.secondary:hover {
   background-color: var(--purple-light);
 }
 
+a.button.accent,
+button.accent {
+  background-color: #fbbf24;
+  color: var(--purple-dark);
+  border-color: #fbbf24;
+  font-weight: 600;
+}
+
+a.button.accent:hover,
+button.accent:hover {
+  background-color: #f59e0b;
+}
+
 main img {
   max-width: 100%;
   width: auto;
@@ -267,30 +280,87 @@ main > .section:first-of-type {
 }
 
 /* section metadata */
-main .section.light,
-main .section.highlight {
+main .section.light {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
 }
 
-/* logo bar styling */
-main .section .logo-bar {
+main .section.highlight,
+main .section.dark {
+  background-color: var(--purple-dark);
+  color: #fff;
+  margin: 0;
+  padding: 60px 0;
+}
+
+main .section.highlight h1,
+main .section.highlight h2,
+main .section.highlight h3,
+main .section.highlight h4,
+main .section.highlight h5,
+main .section.highlight h6,
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.dark h4,
+main .section.dark h5,
+main .section.dark h6 {
+  color: #fff;
+}
+
+main .section.highlight a:any-link,
+main .section.dark a:any-link {
+  color: #c4b5fd;
+}
+
+main .section.grey {
+  background-color: var(--gray-100);
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* logo bar section */
+main .section.logo-bar {
+  background-color: var(--light-color);
+  margin: 0;
+  padding: 24px 0;
+  text-align: center;
+}
+
+main .section.logo-bar p:first-child {
+  font-size: var(--body-font-size-xs);
+  color: var(--gray-600);
+  margin-bottom: 16px;
+}
+
+main .section.logo-bar p:last-of-type {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 32px;
   flex-wrap: wrap;
-  padding: 20px 0;
 }
 
-main .section .logo-bar img {
+main .section.logo-bar img {
   height: 24px;
   width: auto;
-  opacity: 0.7;
-  transition: opacity 0.2s ease;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: opacity 0.2s ease, filter 0.2s ease;
 }
 
-main .section .logo-bar img:hover {
+main .section.logo-bar img:hover {
   opacity: 1;
+  filter: grayscale(0%);
+}
+
+@media (width >= 900px) {
+  main .section.logo-bar p:last-of-type {
+    gap: 48px;
+  }
+
+  main .section.logo-bar img {
+    height: 28px;
+  }
 }
