@@ -10,6 +10,7 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  getMetadata,
 } from './aem.js';
 
 /**
@@ -92,6 +93,13 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+
+  const redirectTarget = getMetadata('redirect');
+  if (redirectTarget && !window.location.hostname.includes('localhost')) {
+    window.location.replace(redirectTarget);
+    return;
+  }
+
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+  <filter root="/content/pearson" mode="merge">
+    <include pattern="/content/pearson"/>
+    <include pattern="/content/pearson/index"/>
+    <include pattern="/content/pearson/en-us"/>
+    <include pattern="/content/pearson/en-us/higher-education"/>
+    <include pattern="/content/pearson/en-us/higher-education/products-services"/>
+    <include pattern="/content/pearson/en-us/higher-education/products-services/revel"/>
+    <include pattern="/content/pearson/en-us/higher-education/products-services/revel/support-k-12-educators"/>
+  </filter>
+</workspaceFilter>
